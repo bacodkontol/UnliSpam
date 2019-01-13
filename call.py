@@ -9,17 +9,9 @@ import subprocess as sp
 
 subprocess.call("clear", shell=True)
 
-banner = """
-╔╗╴╴╴╔══════╗ \033[1;34mCalling SPAM\033[1;36m UNLIMITED\033[0m
-║║╴╴╴║╴╔════╝
-║╚═══╝╴╚════╗ MoDify BY \033[1;32mAditya01\033[0m
-╚════╗╴╔═══╗║ 404 AQUA (Not FOUND)
-╔════╝╴║╴╴╴║║ SPECIAL HARI CoLY Indonesia
-╚══════╝╴╴╴╚╝
-"""
+
 
 x = 0
-print banner
 a = raw_input("[+] Lanjutkan (y/n): ")
 d = raw_input("[+] Jumlah : ")
 while x < d:
